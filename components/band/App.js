@@ -171,10 +171,10 @@ export default function App() {
           <div className="hero-left">
             <span className="welcome-tag">WELCOME TO MY PORTFOLIO</span>
             <h1 className="hero-title">
-              <p>I&apos;m a developer</p>
+              <p>I&apos;m</p>
               <span className="gradient-text">Ikram Ardi Aldjokya</span>
             </h1>
-            <h2 className="hero-subtitle">Full Stack & Banking System Tester</h2>
+            <h2 className="hero-subtitle">Banking System Tester</h2>
             <p className="hero-desc">
               Lulusan SMK Teknik Komputer dan Jaringan (TKJ) dengan pengalaman di bidang IT Implementation dan System Testing, khususnya pada sistem perbankan. Memiliki pengalaman dalam pelaksanaan SIT/UAT, analisis log menggunakan Linux dan PuTTY, troubleshooting, serta monitoring sistem.
             </p>
@@ -264,12 +264,12 @@ export default function App() {
           <div>
             <div className="interests-header">✦ INTERESTS</div>
             <div className="interests-grid">
-              <div className="interest-card"><span>💻</span> Interactive Web 3D</div>
+              <div className="interest-card"><span>🏦</span>Banking System & Switching</div>
               <div className="interest-card"><span>⚙️</span> System Integration</div>
               <div className="interest-card"><span>💳</span> Banking IT & ISO 8583</div>
-              <div className="interest-card"><span>🧪</span> Software Quality Assurance</div>
-              <div className="interest-card"><span>🎨</span> Modern UI/UX Design</div>
-              <div className="interest-card"><span>🛠️</span> Automation & Testing</div>
+              <div className="interest-card"><span>🖥️</span>Linux & System Monitoring</div>
+              <div className="interest-card"><span>⚙️</span>System Testing (SIT/UAT)</div>
+              <div className="interest-card"><span>🔍</span>Log Analysis & Troubleshooting</div>
             </div>
           </div>
         </div>
@@ -529,14 +529,12 @@ export default function App() {
             <div className="timeline-dot">💼</div>
             <div className="timeline-box">
               <div className="timeline-date">NOVEMBER 2022 - AUGUST 2026 (4 YEARS)</div>
-              <div className="timeline-role">Full Stack & Banking System Tester</div>
+              <div className="timeline-role">Banking System Tester</div>
               <div className="timeline-company">PT. Global Mobilitas Asia (Bank switching company)</div>
               <p className="timeline-desc">Melakukan Test sesuai dengan tahap SIT dan UAT di server development dengan client bank, Mengidentifikasi, mencatat, dan melaporkan bug/defect melalui aplikasi Putty Linux Program.</p>
               <div className="project-tags" style={{ marginTop: '0.8rem' }}>
                 <span className="p-tag">ISO 8583 (Message Transaction)</span>
-                <span className="p-tag">HTML5 & CSS</span>
                 <span className="p-tag">POSTMAN</span>
-                <span className="p-tag">JSON/XML</span>
                 <span className="p-tag">TROUBLESHOOTING</span>
                 <span className="p-tag">BASIC LINUX</span>
                 <span className="p-tag">SERVER ENVIRONMENT</span>

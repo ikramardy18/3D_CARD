@@ -1204,3 +1204,23 @@ body {
 .modal-highlights div::-webkit-scrollbar-thumb:hover {
     background: rgba(129, 140, 248, 0.6);
 }
+
+/* Aturan tampilan standar/desktop */
+.container {
+    padding: 40px;
+    flex-direction: row;
+}
+
+/* Aturan khusus untuk tampilan HP (Android & iOS) */
+@media (max-width: 768px) {
+    .container {
+        padding: 16px;
+        flex-direction: column;
+        /* Mengubah susunan elemen mendatar jadi menurun */
+    }
+
+    /* Menyesuaikan ukuran font agar pas di layar HP */
+    h1 {
+        font-size: 24px;
+    }
+}
