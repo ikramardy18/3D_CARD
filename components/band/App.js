@@ -1,6 +1,6 @@
 'use client';
 import './index.css';
-import './portfolio.css';
+import './Portfolio.css';
 import * as THREE from 'three';
 import { useEffect, useRef, useState } from 'react';
 import { Canvas, extend, useThree, useFrame } from '@react-three/fiber';
@@ -153,8 +153,8 @@ export default function App() {
         <ul className="nav-links">
           {navItems.map((item) => (
             <li key={item.id}>
-              <a 
-                href={`#${item.id}`} 
+              <a
+                href={`#${item.id}`}
                 className={activeSection === item.id ? 'active' : ''}
                 onClick={(e) => handleNavClick(e, item.id)}
               >
@@ -180,31 +180,31 @@ export default function App() {
             </p>
 
             <div className="button-group">
-              <a 
-                href="/assets/CV_Ikram_Ardi_Aldjokya.pdf" 
-                download="CV_Ikram_Ardi_Aldjokya.pdf" 
+              <a
+                href="/assets/CV_Ikram_Ardi_Aldjokya.pdf"
+                download="CV_Ikram_Ardi_Aldjokya.pdf"
                 className="btn-primary"
               >
                 📥 Download CV
               </a>
-              <a 
-                href="https://github.com/ikramardy18" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://github.com/ikramardy18"
+                target="_blank"
+                rel="noreferrer"
                 className="btn-outline"
               >
                 <FaGithub size={18} /> GitHub
               </a>
-              <a 
-                href="https://linkedin.com/in/ikram-ardi" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://linkedin.com/in/ikram-ardi"
+                target="_blank"
+                rel="noreferrer"
                 className="btn-outline"
               >
                 <FaLinkedin size={18} color="#0a66c2" /> LinkedIn
               </a>
-              <a 
-                href="#contact" 
+              <a
+                href="#contact"
                 className="btn-outline"
                 onClick={(e) => handleNavClick(e, 'contact')}
               >
@@ -559,15 +559,15 @@ export default function App() {
 
         <div className="awards-grid">
           {awardsData.map((award) => (
-            <div 
-              key={award.id} 
+            <div
+              key={award.id}
               className="award-card"
               onClick={() => setSelectedAwardImg(award)}
             >
               <div className="award-preview">
-                <img 
-                  src={award.imgSrc} 
-                  alt={award.title} 
+                <img
+                  src={award.imgSrc}
+                  alt={award.title}
                   onError={(e) => {
                     e.target.style.display = 'none';
                     e.target.nextSibling.style.display = 'flex';
@@ -602,8 +602,8 @@ export default function App() {
 
         <div className="contact-grid">
           <div className="contact-info-list">
-            <a 
-              href="mailto:ikramardy18@gmail.com" 
+            <a
+              href="mailto:ikramardy18@gmail.com"
               className="c-info-card"
             >
               <div className="c-info-icon">✉️</div>
@@ -613,10 +613,10 @@ export default function App() {
               </div>
             </a>
 
-            <a 
-              href="https://github.com/ikramardy18" 
-              target="_blank" 
-              rel="noreferrer" 
+            <a
+              href="https://github.com/ikramardy18"
+              target="_blank"
+              rel="noreferrer"
               className="c-info-card"
             >
               <div className="c-info-icon">
@@ -628,10 +628,10 @@ export default function App() {
               </div>
             </a>
 
-            <a 
-              href="https://linkedin.com/in/ikram-ardi" 
-              target="_blank" 
-              rel="noreferrer" 
+            <a
+              href="https://linkedin.com/in/ikram-ardi"
+              target="_blank"
+              rel="noreferrer"
               className="c-info-card"
             >
               <div className="c-info-icon">
@@ -644,46 +644,46 @@ export default function App() {
             </a>
           </div>
 
-          <form 
-            className="contact-form" 
-            action="https://formspree.io/f/xoeelgvj" 
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/xoeelgvj"
             method="POST"
           >
             <div className="form-row">
               <div className="form-group">
                 <label>Name</label>
-                <input 
-                  type="text" 
-                  name="name" 
-                  className="form-input" 
-                  placeholder="Nama lengkap kamu" 
-                  required 
+                <input
+                  type="text"
+                  name="name"
+                  className="form-input"
+                  placeholder="Nama lengkap kamu"
+                  required
                 />
               </div>
               <div className="form-group">
                 <label>Email</label>
-                <input 
-                  type="email" 
-                  name="email" 
-                  className="form-input" 
-                  placeholder="email@contoh.com" 
-                  required 
+                <input
+                  type="email"
+                  name="email"
+                  className="form-input"
+                  placeholder="email@contoh.com"
+                  required
                 />
               </div>
             </div>
             <div className="form-group">
               <label>Message</label>
-              <textarea 
-                name="message" 
-                className="form-input" 
-                rows="4" 
-                placeholder="Ceritakan tentang project atau pesanmu..." 
+              <textarea
+                name="message"
+                className="form-input"
+                rows="4"
+                placeholder="Ceritakan tentang project atau pesanmu..."
                 required
               ></textarea>
             </div>
-            <button 
-              type="submit" 
-              className="btn-primary" 
+            <button
+              type="submit"
+              className="btn-primary"
               style={{ border: 'none', cursor: 'pointer', justifySelf: 'start' }}
             >
               ✈️ Send Message
@@ -717,7 +717,7 @@ export default function App() {
                 <h3 style={{ color: '#fff', fontSize: '0.95rem', marginBottom: '0.8rem' }}>✦ Executed Test Scenarios Scope</h3>
                 {/* BUTTON TAB NORMAL / NEGATIVE */}
                 <div style={{ display: 'flex', gap: '0.8rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.6rem', marginBottom: '1rem' }}>
-                  <button 
+                  <button
                     onClick={() => setActiveScenarioTab('normal')}
                     style={{
                       background: activeScenarioTab === 'normal' ? 'rgba(52, 211, 153, 0.2)' : 'transparent',
@@ -731,7 +731,7 @@ export default function App() {
                   >
                     ✓ Normal Test ({projectDetails.atmSwitching.stats.normalCases} Cases)
                   </button>
-                  <button 
+                  <button
                     onClick={() => setActiveScenarioTab('negative')}
                     style={{
                       background: activeScenarioTab === 'negative' ? 'rgba(251, 191, 36, 0.2)' : 'transparent',
@@ -777,8 +777,8 @@ export default function App() {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                   {projectDetails.monitoring.previewImages.map((img, i) => (
                     <div key={i} style={{ background: '#020617', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '10px', overflow: 'hidden' }}>
-                      <img 
-                        src={img.src} 
+                      <img
+                        src={img.src}
                         alt={img.title}
                         style={{ width: '100%', height: '160px', objectFit: 'cover' }}
                         onError={(e) => {
@@ -817,9 +817,9 @@ export default function App() {
           <div className="award-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close-btn" onClick={() => setSelectedAwardImg(null)}>&times;</button>
             <div className="award-modal-img-wrapper">
-              <img 
-                src={selectedAwardImg.imgSrc} 
-                alt={selectedAwardImg.title} 
+              <img
+                src={selectedAwardImg.imgSrc}
+                alt={selectedAwardImg.title}
                 onError={(e) => {
                   e.target.src = "https://via.placeholder.com/800x600/0f172a/818cf8?text=Foto+Piagam+Belum+Dimasukkan";
                 }}
