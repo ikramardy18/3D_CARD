@@ -171,7 +171,7 @@ export default function App() {
           <div className="hero-left">
             <span className="welcome-tag">WELCOME TO MY PORTFOLIO</span>
             <h1 className="hero-title">
-              Hi, I'm <br />
+              <p>I&apos;m a developer</p>
               <span className="gradient-text">Ikram Ardi Aldjokya</span>
             </h1>
             <h2 className="hero-subtitle">Full Stack & Banking System Tester</h2>
@@ -375,7 +375,7 @@ export default function App() {
                   <span className="api-dot"></span> POST /transactions
                 </div>
                 <div className="api-code">
-                  <span className="code-purple">pm</span>.test(<span className="code-green">"Status is 200"</span>, () =&gt; &#123;<br />
+                  <span className="code-purple">pm</span>.test(<span className="code-green">&quot;Status is 200&quot;</span>, () =&gt; &#123;<br />
                   &nbsp;&nbsp;pm.response.to.have.status(<span className="code-orange">200</span>);<br />
                   &#125;);<br /><br />
                   <span className="code-purple">const</span> data = pm.response.json();
@@ -595,7 +595,7 @@ export default function App() {
       {/* SECTION 6: CONTACT ME */}
       <section id="contact" className="section-container">
         <div className="section-header">
-          <span className="section-subtitle">LET'S CONNECT</span>
+          <span className="section-subtitle">LET&apos;S CONNECT</span>
           <h2 className="section-title">Contact Me</h2>
           <p className="section-desc">Punya project, pertanyaan, atau ingin berkolaborasi? Jangan ragu untuk menghubungi saya.</p>
         </div>
