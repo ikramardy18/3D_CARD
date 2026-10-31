@@ -267,7 +267,7 @@ export default function App() {
               <div className="interest-card"><span>🏦</span>Banking System & Switching</div>
               <div className="interest-card"><span>⚙️</span> System Integration</div>
               <div className="interest-card"><span>💳</span> Banking IT & ISO 8583</div>
-              <div className="interest-card"><span>🖥️</span>Linux & System Monitoring</div>
+              <div className="interest-card"><span>🐧</span>Linux & System Monitoring</div>
               <div className="interest-card"><span>⚙️</span>System Testing (SIT/UAT)</div>
               <div className="interest-card"><span>🔍</span>Log Analysis & Troubleshooting</div>
             </div>
@@ -293,27 +293,27 @@ export default function App() {
 
         <div className="skills-grid">
           <div className="skill-card">
-            <div className="skill-icon">⚡</div>
-            <div className="skill-name">JavaScript</div>
-            <div className="skill-cat">Programming</div>
+            <div className="skill-icon">🐧</div>
+            <div className="skill-name">Linux & PuTTY</div>
+            <div className="skill-cat">SYSTEM OPERATIONS</div>
           </div>
           <div className="skill-card">
-            <div className="skill-icon">⚛️</div>
-            <div className="skill-name">React.js</div>
-            <div className="skill-cat">Frontend</div>
-          </div>
-          <div className="skill-card">
-            <div className="skill-icon">🧊</div>
-            <div className="skill-name">Three.js / R3F</div>
-            <div className="skill-cat">Frontend 3D</div>
+            <div className="skill-icon">🗄️</div>
+            <div className="skill-name">SQL & MySQL</div>
+            <div className="skill-cat">DATABASE BASICS</div>
           </div>
           <div className="skill-card">
             <div className="skill-icon">🌐</div>
-            <div className="skill-name">HTML5 & CSS3</div>
-            <div className="skill-cat">Frontend</div>
+            <div className="skill-name">HTML, CSS & JavaScript</div>
+            <div className="skill-cat">WEB DEVELOPMENT</div>
           </div>
           <div className="skill-card">
-            <div className="skill-icon">🟢</div>
+            <div className="skill-icon">🔌</div>
+            <div className="skill-name">Postman & API Testing</div>
+            <div className="skill-cat">API INTEGRATION</div>
+          </div>
+          <div className="skill-card">
+            <div className="skill-icon">⚙️</div>
             <div className="skill-name">Node.js</div>
             <div className="skill-cat">Backend</div>
           </div>
@@ -437,34 +437,34 @@ export default function App() {
       <section id="approach" className="section-container">
         <div className="section-header">
           <span className="section-subtitle">05 / MY APPROACH</span>
-          <h2 className="section-title">Reliability is a <span className="gradient-text">practice.</span></h2>
-          <p className="section-desc">A simple workflow I bring to technical problems.</p>
+          <h2 className="section-title">From Testing to <span className="gradient-text">Implementation.</span></h2>
+          <p className="section-desc">A structured approach to delivering reliable systems.</p>
         </div>
 
         <div className="principles-grid">
           <article className="principle-card">
             <span className="principle-number">01</span>
-            <span className="principle-icon">◉</span>
-            <h3>Observe</h3>
-            <p>Collect symptoms, monitoring signals, logs, and reproducible evidence.</p>
+            <span className="principle-icon">◎</span>
+            <h3>Understand</h3>
+            <p>Analyze requirements, understand system flows, and identify testing objectives.</p>
           </article>
           <article className="principle-card">
             <span className="principle-number">02</span>
             <span className="principle-icon">⌕</span>
-            <h3>Investigate</h3>
-            <p>Compare expected versus actual behavior and narrow down possible causes.</p>
+            <h3>Prepare & Test</h3>
+            <p>Prepare test scenarios and perform functional, integration, and SIT/UAT testing.</p>
           </article>
           <article className="principle-card">
             <span className="principle-number">03</span>
             <span className="principle-icon">✓</span>
-            <h3>Resolve & validate</h3>
-            <p>Coordinate a fix, test the result, and document outcomes clearly.</p>
+            <h3>Analyze & Resolve</h3>
+            <p>Analyze logs, identify defects, troubleshoot issues, and validate corrections.</p>
           </article>
           <article className="principle-card">
             <span className="principle-number">04</span>
             <span className="principle-icon">↗</span>
-            <h3>Improve</h3>
-            <p>Capture lessons learned and identify opportunities to prevent recurrence.</p>
+            <h3>Deploy & Monitor</h3>
+            <p>Support production implementation and monitor system performance and issues.</p>
           </article>
         </div>
       </section>
